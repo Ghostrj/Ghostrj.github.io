@@ -1,1 +1,2 @@
-# Ghostrj.github.io
+Ghostrj.github.io
+什么鬼
