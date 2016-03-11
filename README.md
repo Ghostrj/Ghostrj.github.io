@@ -5,7 +5,6 @@
 	<title>Document</title>
 </head>
 <body>
-	Ghostrj.github.io
-什么鬼
+	<p>Ghostrj.github.io</p>
 </body>
 </html>
