@@ -19,7 +19,11 @@
       overflow: hidden;
       transition:all 1s;
     }
-    dt:hover~dd{
+    .a:hover~#a{
+      opacity: 1;
+      max-height: 100000px;
+    }
+    .b:hover~#b{
       opacity: 1;
       max-height: 100000px;
     }
@@ -27,10 +31,10 @@
 </head>
 <body>
   <dl>
-    <dt>123456</dt>
-    <dd>321321321323213213</dd>
-    <dt>123456</dt>
-    <dd>321321321323213213</dd>
+    <dt class="a">123456</dt>
+    <dd id="a">321321321323213213</dd>
+    <dt class="b">123456</dt>
+    <dd id="b">321321321323213213</dd>
   </dl>
 </body>
 </html>
