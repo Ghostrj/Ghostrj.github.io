@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    dt{
+      background-color: red;
+      width:50px;
+    }
+    dd{
+      background-color:rgba(162,200,245,0.5);
+      width: 150px;
+    }
+    dt~dd{
+      opacity: 0;
+      max-height:0px ;
+      margin:0;
+      overflow: hidden;
+      transition:all 1s;
+    }
+    dt:hover~dd{
+      opacity: 1;
+      max-height: 100000px;
+    }
+  </style>
+</head>
+<body>
+  <dl>
+    <dt>123456</dt>
+    <dd>321321321323213213</dd>
+    <dt>123456</dt>
+    <dd>321321321323213213</dd>
+  </dl>
+</body>
+</html>
