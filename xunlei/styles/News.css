@@ -43,6 +43,9 @@
 	text-align: center;
 	line-height: 30px;
 }
+.page li a{
+	text-decoration: none;
+}
 .page li:hover{
     background-color: #00A7EA;
 }
