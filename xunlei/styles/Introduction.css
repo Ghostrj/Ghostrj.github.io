@@ -1,0 +1,40 @@
+/*
+公共类
+	清除浮动
+	居中显示类
+*/
+.banner{
+	height: 260px;
+	background:url(../images/brief_banner.jpg) center;
+}
+/*
+content 样式设置
+*/
+.content{
+	margin-top: 20px;
+	color:#666;
+}
+.content h2{
+	color: #333;
+	font-size: 1.6em;
+	font-family: "黑体";
+}
+.content .nav{
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 12px;
+}
+.content .text{
+	margin-top: 20px;
+}
+.content .text p{
+	font-size: 14px;
+	line-height: 30px;
+	padding-bottom: 20px;
+	text-indent: 2em;
+}
+/*
+footer 样式设置
+*/
+
